@@ -1,10 +1,12 @@
 package com.example.ana.biblioteca;
 
+import java.io.Serializable;
+
 /**
  * Created by Ana on 27/02/2018.
  */
 
-public class Livro {
+public class Livro implements Serializable {
     private String nomeLivro;
     private String nomeAutor;
 

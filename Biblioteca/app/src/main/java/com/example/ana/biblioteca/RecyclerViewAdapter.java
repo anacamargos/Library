@@ -56,5 +56,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             authorNameTV = (TextView) itemView.findViewById(R.id.nomeAutor);
         }
 
+
     }
 }
